@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T05:19:11.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="C2lDtaSZE0Yy5ugIjgM7" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T05:30:44.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="MUg1TLF7QnKywsBgED8m" version="16.4.6" type="github">
   <diagram id="HVIMIyNaEl5NfeKefO-4" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,8 +43,14 @@
         <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-11" target="V3Kr2m5Zbbi_J88Jwd5E-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-11" target="V3Kr2m5Zbbi_J88Jwd5E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-11" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
           <mxGeometry x="900" y="110" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-12" target="V3Kr2m5Zbbi_J88Jwd5E-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Portal.svg;" vertex="1" parent="1">
           <mxGeometry x="1020.01" y="68.5" width="166.25" height="133" as="geometry" />
@@ -54,6 +60,43 @@
         </mxCell>
         <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-16" value="Altiris" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1073" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-17" target="V3Kr2m5Zbbi_J88Jwd5E-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="440" />
+              <mxPoint x="630" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-17" value="Update the Collection Target of Scan Agents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-19" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="937" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-20" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="85" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="918.5" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-22" value="Update SCCM Collection for re-install" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="858.5" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="864.5" y="1310" width="108" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-24" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="V3Kr2m5Zbbi_J88Jwd5E-26">
+          <mxGeometry width="50" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-25" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="V3Kr2m5Zbbi_J88Jwd5E-26">
+          <mxGeometry x="70" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-30" value="Check DB for Full inventory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="400" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
