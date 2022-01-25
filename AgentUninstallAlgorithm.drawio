@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T05:33:41.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.6" etag="73NHCvEE1la6DjnKCh_b" type="github"><diagram id="WyGLlNWnZWoMrUWWW615">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-25T05:38:51.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gkpariVK3zXYsZwHg3el" version="16.4.6" type="github">
+  <diagram id="WyGLlNWnZWoMrUWWW615" name="Page-1">
+    <mxGraphModel dx="782" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-1" value="Altiris DB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-2" value="Altiris Portal" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Portal.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-3" value="SCCM" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.secondary_site" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-4" value="System Admin" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="48.1" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-5" value="Automation Script" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.script;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-7" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.systems_manager_incident_manager;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-8" target="fayGu9aY99YwS0WSdZ2n-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-8" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.play_start" vertex="1" parent="1">
+          <mxGeometry x="325" y="-90" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-10" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Agent Not Reporting&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
