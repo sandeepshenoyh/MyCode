@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T05:38:51.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gkpariVK3zXYsZwHg3el" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T05:52:55.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="IhLNbFD8Noa1iRZ-Mym2" version="16.4.6" type="github">
   <diagram id="WyGLlNWnZWoMrUWWW615" name="Page-1">
-    <mxGraphModel dx="782" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fayGu9aY99YwS0WSdZ2n-1" value="Altiris DB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-1" value="QR DB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
           <mxGeometry x="50" y="130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fayGu9aY99YwS0WSdZ2n-2" value="Altiris Portal" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Portal.svg;" vertex="1" parent="1">
@@ -30,6 +30,101 @@
         </mxCell>
         <mxCell id="fayGu9aY99YwS0WSdZ2n-10" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Agent Not Reporting&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="325" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-4" target="fayGu9aY99YwS0WSdZ2n-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-18" value="Check the DB if Agent is not reporting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.083;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-7" target="fayGu9aY99YwS0WSdZ2n-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="110" as="sourcePoint" />
+            <mxPoint x="510" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-20" value="Alert from QR or Incident" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="460" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-21" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-22" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-23" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="455" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-25" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-26" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="45" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-27" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="45" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-28" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-29" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-35" target="fayGu9aY99YwS0WSdZ2n-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="650" />
+              <mxPoint x="-90" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-35" value="Altiris DB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-37" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="350" width="52" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.892;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-1" target="fayGu9aY99YwS0WSdZ2n-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="370" as="sourcePoint" />
+            <mxPoint x="380" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-40" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.709;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-5" target="fayGu9aY99YwS0WSdZ2n-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="470" as="sourcePoint" />
+            <mxPoint x="340" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-42" value="Pick the agent not reportiing list" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-43" value="Update the Collection for Agent re-deploy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-44" value="Agent Deployed" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codedeploy;fillColor=#759C3E;gradientColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="560" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.99;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-3" target="fayGu9aY99YwS0WSdZ2n-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="600" as="sourcePoint" />
+            <mxPoint x="350" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-46" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fayGu9aY99YwS0WSdZ2n-44" target="fayGu9aY99YwS0WSdZ2n-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="700" as="sourcePoint" />
+            <mxPoint x="380" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-51" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fayGu9aY99YwS0WSdZ2n-52" value="Agent Re-Deployed and Reported to Altiris" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="333" y="591" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
