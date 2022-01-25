@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T05:12:07.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.4.6" etag="hPcnKvUGFbI6bXpirkDi" type="github"><diagram id="HVIMIyNaEl5NfeKefO-4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-25T05:19:11.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="C2lDtaSZE0Yy5ugIjgM7" version="16.4.6" type="github">
+  <diagram id="HVIMIyNaEl5NfeKefO-4" name="Page-1">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-1" target="V3Kr2m5Zbbi_J88Jwd5E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-1" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.play_start" vertex="1" parent="1">
+          <mxGeometry x="70" y="75" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-2" target="V3Kr2m5Zbbi_J88Jwd5E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-2" value="Altiris DB" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/repo-128.png" vertex="1" parent="1">
+          <mxGeometry x="540" y="75" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="110" />
+              <mxPoint x="340" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-3" value="Check the DB for Last report Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="74" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-4" target="V3Kr2m5Zbbi_J88Jwd5E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-4" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.072;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-8" target="V3Kr2m5Zbbi_J88Jwd5E-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-8" value="Is the last report date Old?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V3Kr2m5Zbbi_J88Jwd5E-11" target="V3Kr2m5Zbbi_J88Jwd5E-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-11" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="900" y="110" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Portal.svg;" vertex="1" parent="1">
+          <mxGeometry x="1020.01" y="68.5" width="166.25" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-15" value="Verify the Portal to check Agent Policies are applied" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1038.13" y="220" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V3Kr2m5Zbbi_J88Jwd5E-16" value="Altiris" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1073" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
